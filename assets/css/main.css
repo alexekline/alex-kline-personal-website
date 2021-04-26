@@ -1,0 +1,53 @@
+/* THIS IS YOUR CSS FILE */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+header {
+    background-image: url(../../img/bkgd-leaves.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    padding: 400px 0;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 65px;
+  text-transform: uppercase;
+}
+h1 + p {
+    font-size: 36px;
+    text-align: center;
+    color: #ABA487;
+    border-top: 1px solid #606060;
+    padding-top: 10px;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 1.75em;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section#about {
+    background-color: #ABA487;
+}
+
+h2 {
+    font-family: 'Playfair display';
+    font-size: 44px;
+    font-weight: bold;
+    color: #081818;
+}
+
+img.profile {
+    border-radius: 50%;
+    max-width: 300px;
+}
